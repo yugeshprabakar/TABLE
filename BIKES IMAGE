@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>bikes</title>
+<body>
+<h1>MOTO PITSTOP</h1>
+<img src="re.jpg" alt="re" usemap="#bikes"  >
+<map name="bikes">
+<area shape="rect" coords="116,199,632,798" href="https://www.royalenfield.com/in/en/motorcycles/classic-350/" alt="re">
+<img src="Kawasaki.jpg" alt="Kawasaki" usemap="#kw"  >
+<map name="kw">
+<area shape="rect" coords="1,3,1198,555" href="https://kawasaki-india.com/" alt="kawasaki">
+<img src="bmw.png" alt="bmw" usemap="#bmw" >
+<map name="bmw">
+<area shape="rect" coords="1,2,487,102" href="https://www.bmw.in/en/index.html" alt="bmw">
+<img src="ktm.png" alt="ktm" usemap="#ktm"   >
+<map name="ktm">
+<area shape="rect" coords="4,4,358,135" href="https://www.ktm.com/en-us.html" alt="ktm">
+</body>
+</head>
+</html>
