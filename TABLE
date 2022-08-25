@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>SignUp form</title>
+<body>
+<h1>SIGNUP FORM</h1>
+<style>
+table, th, td{
+border :2px solid black;
+background-color:grey;
+</style>
+</body>
+</head>
+<table border ="1">
+<thead>
+
+<td><lable for ="Username">Username</label></td>
+<td><Input type ="text "name="Username" id="Usernmae"</td>
+</thead>
+<tbody>
+<tr>
+<td><lable for ="Password">Password</label></td>
+<td><Input type ="Password "name="Password" id="Password"</td>
+</tr>
+<tr>
+<td><lable for ="CPassword">CPassword</label></td>
+<td><Input type ="Password "name="CPassword" id="CPassword"</td>
+</tr>
+<tr>
+<td><lable for ="DOB">DOB</label></td>
+<td><Input type ="date "name="db" id="dob"</td>
+</tr>
+<tr>
+<td><label>Gender</label></td>
+<td><Input type="radio"  name="gender " id=gEnder value="Male"/><label>Male</label><br><Input type="radio" name="gender " id=gEnder value="Female"/><label>Female</label><br><Input type="radio" name="gender " id=gEnder value="Trans"/><label>Trans</label></td>
+</tr>
+<tr>
+<td><lable for ="EMAIL">EmailID</label></td>
+<td><Input type="EMAIL" name="Email" id="EMAIL"></td>
+</tr>
+<tr>
+<td><label for"Submitted docx">Submitted docx</label></td>
+<td><Input type="checkbox" name="Submitted docx" id="Submitted docx" value="Aadhar"><label>Aadhar</label><br><Input type="checkbox" name="Submitted docx" id="Submitted docx" value="10th Marksheet"><label>10thMarksheet</label><br><Input type="checkbox" name="Submitted docx" id="Submitted docx" value="12thMarksheet"><label>12thMarksheet</label></td>
+</tr>
+<tr>
+<td><button>SUBMIT</button></td>
+</tr></tbody>
+</html>
