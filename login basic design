@@ -1,0 +1,83 @@
+<html>
+<head>
+<style>
+html{
+background-color:rgb(173, 3, 88);
+}
+form{
+background-color:rgb(133, 7, 70);
+border:5px solid black;
+border-radius:5px;
+margin-left:470px;
+margin-right:450px;
+margin-bottom:50px;
+padding-left:50px;
+}
+h4{
+color:white;
+text-align:center;
+}
+label{
+color:white;
+}
+.cls{
+text-align:center;
+}
+.btn{
+color:white;
+border:2px;
+border-radius:5px;
+text-align:center;
+background-color:rgb(222, 2, 112);
+}
+<title>
+login page
+</title>
+</style>
+<div>
+</head>
+<body>
+<h4>LOGIN PAGE</h4>
+<form>
+<br><label>NAME</label>
+<label for="new_name"></label>
+<input type="text" name="new_name" id="new name" placeholder="ENTER YOUR NAME"/><br><br>
+<label>MOBILE_NUMBER</label>
+<label for="mobile_number"></label>
+<input type="text" name="mobile_number" id="mobile_number" placeholder="ENTER YOUR MOBILE NUMBER"/><br><br>
+<label>GENDER</label>
+<label for="gender"></label>
+<input type="radio" name="gender" id="gender" value="male"/>
+<label>MALE</label>
+<input type="radio" name="gender" id="gender" value="female"/>
+<label>FEMALE</label><br><br>
+<label>MAIL_ID</label>
+<label for="mail_id"></label>
+<input type="text" name="mail_id" id="mail_id"/><br><br>
+<label>DOB</label>
+<label for="DOB"></label>
+<input type="date" name="DOB" id="DOB"/><br><br>
+<label>SUBMIT_DOCUMENT</label>
+<label for="SUBMIT_DOCUMENT"></label><br><br>
+<input type="checkbox" name="SUBMIT_DOCUMENT" id="SUBMIT_DOCUMENT" value="aadhar"/>
+<label>AADHAR CARD</label><br><br>
+<input type="checkbox" name="SUBMIT_DOCUMENT" id="SUBMIT_DOCUMENT" value="10 marksheet"/>
+<label>10 MARK_SHEET</label><br><br>
+<input type="checkbox" name="SUBMIT_DOCUMENT" id="SUBMIT_DOCUMENT" value="12 marksheet"/>
+<label>12 MARK_SHEET</label><br><br>
+<label>ADDRESS</label>
+<input type="text" name="ADDRESS" id="ADDRESS"/><br><br>
+<input type="checkbox"/>
+<label>remember me on this computer</label><br></br>
+</div>
+</form>
+</body>
+</head>
+<div class="cls">
+<head>
+<body>
+<button class="btn">REGISTER</button>
+</head>
+</body>
+</div>
+</html>
